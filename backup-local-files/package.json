@@ -1,0 +1,14 @@
+{
+  "name": "@emoriiin979/backup-local-files",
+  "main": "./src/main.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --watch ./src/main.ts",
+    "build": "bun build ./src/main.ts --compile --outfile ./bin/backup-local-files --target bun",
+    "start": "bun run ./src/main.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.13",
+    "typescript": "^6.0.3"
+  }
+}
